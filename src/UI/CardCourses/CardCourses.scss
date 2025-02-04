@@ -1,0 +1,39 @@
+.course-card {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.course-image {
+  height: 180px;
+  object-fit: cover;
+}
+
+.course-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.course-teacher {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.course-description {
+  font-size: 0.9rem;
+  color: #495057;
+}
+
+button {
+  width: 100%;
+}

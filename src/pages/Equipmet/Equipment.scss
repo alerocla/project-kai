@@ -1,0 +1,68 @@
+.equipment-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+.equipment-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.equipment-item {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  text-align: left;
+}
+
+.equipment-item h3 {
+  font-size: 1.2rem;
+  color: #343a40;
+}
+
+.equipment-item p {
+  font-size: 1rem;
+  color: #495057;
+}
+
+.schedule-list {
+  padding: 0;
+  list-style: none;
+}
+
+.schedule-list li {
+  font-size: 0.9rem;
+  color: #333;
+  padding: 5px 0;
+}
+
+.available {
+  color: green;
+  font-weight: bold;
+}
+
+.busy {
+  color: red;
+  font-weight: bold;
+}
+
+.equipment-item .btn {
+  display: inline-block;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}

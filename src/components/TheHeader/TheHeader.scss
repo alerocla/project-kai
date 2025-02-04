@@ -1,0 +1,66 @@
+.custom-header {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border-bottom: 3px solid #f8c102;
+  padding: 15px 0;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.brand-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.nav-link-custom {
+  font-size: 1.1rem;
+  color: #343a40 !important;
+  transition: color 0.3s ease-in-out;
+
+  &:hover {
+    color: #f8c102 !important;
+  }
+}
+
+.nav-dropdown .dropdown-item {
+  font-size: 1rem;
+  color: #343a40;
+
+  &:hover {
+    background-color: #f8c102;
+    color: #fff;
+  }
+}
+
+.navbar-toggler {
+  border: none;
+  background: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.custom-nav-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f8c102;
+  color: white;
+  font-size: 16px;
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+  &:hover {
+    background-color: #ffdc5f;
+    transform: scale(1.05);
+  }
+
+  &:active {
+    background-color: #ffeca8;
+  }
+}

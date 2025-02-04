@@ -1,7 +1,15 @@
 import './App.css'
-
+import TheHeader from './components/TheHeader/TheHeader'
+import TheFooter from './components/TheFooter/TheFooter'
+import RootRoutes from './RootRoutes/RootRoutes'
 function App() {
-  return <></>
+  return (
+    <>
+      <TheHeader />
+      <RootRoutes />
+      <TheFooter />
+    </>
+  )
 }
 
 export default App

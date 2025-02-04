@@ -1,0 +1,47 @@
+.courses-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+.courses-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.course-item {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  text-align: left;
+}
+
+.course-item h3 {
+  font-size: 1.2rem;
+  color: #343a40;
+}
+
+.course-item p {
+  font-size: 1rem;
+  color: #495057;
+}
+
+.course-item .btn {
+  display: inline-block;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}

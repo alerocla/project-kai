@@ -1,0 +1,85 @@
+.research-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.back-button {
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    color: #f8c102;
+  }
+}
+
+.research-section,
+.publications-section,
+.hackathons-section {
+  padding: 40px 0;
+}
+
+.research-list,
+.publications-list,
+.hackathon-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.research-list li,
+.publications-list li,
+.hackathon-list li {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.research-list h4,
+.publications-list h4,
+.hackathon-list h4 {
+  font-size: 1.4rem;
+  color: #343a40;
+}
+
+.research-list p,
+.publications-list p,
+.hackathon-list p {
+  font-size: 1rem;
+  color: #495057;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+.btn-secondary {
+  background-color: #17a2b8;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+
+  &:hover {
+    background-color: #117a8b;
+  }
+}
