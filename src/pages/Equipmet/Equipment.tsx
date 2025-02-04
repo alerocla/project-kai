@@ -59,7 +59,7 @@ const Equipment: React.FC = () => {
               <h3>{item.name}</h3>
               <p>{item.description}</p>
               <p>
-                <b>Статус:</b>{' '}
+                <b>Статус:</b>
                 <span
                   className={
                     item.availability === 'Вільно' ? 'available' : 'busy'

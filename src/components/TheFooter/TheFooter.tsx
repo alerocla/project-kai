@@ -1,5 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap'
-import './TheFooter.scss' // Подключение кастомных стилей
+import './TheFooter.scss'
 
 export default function TheFooter() {
   return (

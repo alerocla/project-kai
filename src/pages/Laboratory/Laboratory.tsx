@@ -7,7 +7,6 @@ import CardCourses from '../../UI/CardCourses/CardCourses'
 export default function Laboratory() {
   return (
     <div className="laboratory-container">
-      {/* Блок с преподавателями */}
       <h2 className="section-title">Наші викладачі та лаборанти</h2>
       <ul className="teachers-list">
         {teachers.map((teacher) => (
